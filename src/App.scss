@@ -1,0 +1,61 @@
+.table--card__wrapper {
+  &:first-child {
+    margin-top: 1rem;
+  }
+  width: 100%;
+  padding: 1rem 2rem;
+  min-height: 130px;
+  border-radius: 20px;
+  border: solid 1px rgba(179, 176, 206, 0.25);
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  margin-bottom: 2rem;
+}
+.table--card__info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+
+  &-title {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #b3b0ce;
+  }
+  &-value {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #34314f;
+  }
+}
+
+.table--card__Pagination--wrapper {
+  display: flex;
+  margin-bottom: 2rem;
+}
+.table--card__Pagination--item {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 10px;
+  border: solid 1px rgba(179, 176, 206, 0.25);
+  text-align: center;
+  padding: 1rem 1rem;
+  margin: 0 5px;
+
+  .active {
+    background-color: #36a0a0;
+  }
+}
